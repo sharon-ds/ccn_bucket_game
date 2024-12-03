@@ -86,7 +86,7 @@ def GameThread():
             falling_object.y = 0
             falling_speed += 1
             score += 1
-            bucket_speed += 1
+            bucket_speed += 10
         elif falling_object.y >= screen_height:  # Object hits the floor
             game_over = True
 
