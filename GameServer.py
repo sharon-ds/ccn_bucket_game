@@ -84,7 +84,7 @@ def GameThread():
         if collision:
             falling_object.x = random.randint(0, screen_width - falling_object.width)
             falling_object.y = 0
-            falling_speed += 1
+            falling_speed += 0.5
             score += 1
             bucket_speed += 10
         elif falling_object.y >= screen_height:  # Object hits the floor
